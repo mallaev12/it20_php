@@ -1,0 +1,233 @@
+
+body{
+    font-family: circe, sans-serif;
+    height: 100%;
+    width: 100%;
+}
+
+button{
+    cursor: pointer;
+}
+.layout{
+    height:auto;
+    max-width: 1150px;
+    padding: 22px 0 70px 0;
+    margin: 0 auto;
+}
+
+.product{
+    display: flex;
+    
+    justify-content: space-between;
+    width: 1000px;
+    height: 587px;
+    background-color: #ffffff;
+}
+.product__img{
+    display: flex;
+}
+.product__preview{
+    margin-left: 40px;
+    
+}
+.product__img-item{
+    
+    
+    width: 90px;
+    height: 130px;
+}
+
+.product__img-bot{
+    margin-left: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 29px;
+    border: 1px solid #dedede;
+    background-color: rgba(245, 245, 245, 0);
+}
+.product__img-bot img{
+    padding-top: 10px;
+    height: 7px;
+    align-items: center;
+}
+.product__img-item img{
+    padding-bottom: 15px;
+}
+.product__description{
+    width: 444px;
+    height: 453px;
+}
+.product__img{
+    width: 460px;
+    height: 509px;
+}
+.product__title{
+    text-transform: uppercase;
+    
+    height: 30px;
+    color: #131313;
+    font-family: "Circe - Extra Bold";
+    font-size: 24px;
+    font-style: normal;
+    line-height: 24px;
+    
+}
+.product__categories{
+    
+    width: 369px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Circe - Light";
+    
+}
+a{
+    text-decoration: none;
+    color: #006be5;
+}
+.product__price{
+    margin-top: 32px;
+    width: 369px;
+    height: 36px;
+    font-size: 18px;
+}
+.product__price-old{
+    font-family: "Circe - Regular";
+    color: #bfbebe;
+    text-decoration: line-through;
+}
+.product__price-new{
+    color: #9a9b9b;
+    font-family: "Circe - Bold";
+    padding-right: 15px;
+}
+.product__price-value{
+    font-family: "Circe - Bold";
+    color: #131313;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product__info{
+    max-width: 340px;
+    height: 65px;
+    font-size: 13px;
+    padding: 15px 22px;
+    margin-top: 20px;
+    background: #f4f4f4;
+}
+
+.product__info-item{
+    color: #131313;
+    font-family: "Circe - Light";
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 30px;
+    
+}
+
+.product__info-item img{
+    margin-right: 10px;
+}
+
+.product_action{
+    margin-top: 30px;
+}
+.custom-btn{
+    width: 165px;
+    color: #131313;
+    font-family: "Circe - Bold";
+    text-transform: uppercase;
+    border: 2px solid #d9d9d9;
+    height: 40px;
+}
+.custom-btn--blue{
+    width: 165px;
+    height: 40px;
+    color: #ffffff;
+    font-family: "Circe - Bold";
+    text-transform: uppercase;
+    background-color: #006be5;
+    margin-right: 23px;
+    border: 2px solid #006be5;
+}
+.product__text{
+    margin-top: 39px;
+    width: 444px;
+    height: 53px;
+    font-family: "Circe - Light";
+    font-size: 13px;
+    text-align: left;
+}
+.product__share{
+    margin-top: 41px;
+    color: #131313;
+    display: flex;
+}
+.product__share-title{
+    padding-top: 5px;
+    color: #131313;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.product__share-list{
+    margin-left: 13px;
+    display: flex;
+    justify-content: center;
+    
+}
+.product__share-item {
+    
+    text-align: center;
+    margin-right: 14px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #d9d9d9;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.product__share-item img{
+    align-items: center;
+    justify-content: center;
+}
+.product__share-more{
+    display: flex;
+    background-image: url(img/4.png);
+    width: 40px;
+    height: 25px;
+    color: #131313;
+    font-family: "Circe - Light";
+    font-size: 13px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.product_basket {
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+    border: 2px solid #d9d9d9;
+  }
+.product_basket-count{
+    border-left: 2px solid #d9d9d9;
+    border-right: 2px solid #d9d9d9;
+    width: 200px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+.product_basket span{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    font-size: 20px;
+}

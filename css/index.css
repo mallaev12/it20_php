@@ -1,0 +1,23 @@
+.layout{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.layout__header{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    height: 30px;
+    
+}
+.layout__nav-item{
+    margin-right: 10px;
+}
+
+.catalog{
+    
+    display: flex;
+}
+.catalog__item{
+    padding-right: 10px;
+}
